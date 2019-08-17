@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Varela Round", sans-serif;
+    font-size: 62.5%; // 1rem 
+}
+
+//HEADER
+
+.particles {
+    height: 100vh;
+    background: linear-gradient(#353544, #2c2c2d);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    &__main-header {
+        margin: 0;
+        padding: 33rem 4rem;
+        text-align: center;
+        font-size: 4rem;
+        color: whitesmoke;
+        font-weight: 100;
+        animation: moveInHeader .5s ease-out .35s; //just to learn how tto manually do animations
+        animation-fill-mode: backwards;
+
+
+        span {
+            color: #b3ccff;
+        }
+    }
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@keyframes moveInHeader {
+    0% {
+        opacity: 0;
+        transform: translateY(6rem)
+    }
+}
+
+//END HEADER
+
+
+// NAVIGATION BAR 
+
+.navy{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.list {
+    margin: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    
+    
+
+    &__li {
+        display: inline-block;
+        font-size: 3rem;
+        text-decoration: none;
+
+        &--a {
+            color: #000;
+            padding: 1rem 2rem 1rem 2rem;
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
+
+
+//ABOUT
+
+.heading {
+    font-size: 5rem;
+    text-align: center;
+    color: #0E0F17;
+    margin: 5rem;
+    border-bottom: solid black .5rem;
+}
+
+.About {
+    background-color: #BCC2D1;
+
+    &__icon{
+    font-size: 6rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    background-color: #2B7EF8;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-left: 5rem;
+    }
+
+    &__card-heading{
+    padding-left: 1rem;
+    margin: 1rem;
+    font-size: 3rem;
+    }
+
+    &__card-text{
+        font-size: 1.5rem;
+    }
+
+    &__pic{
+        position: relative;
+        width: 30rem;
+        display: inline-block;
+        height: 30rem;
+        overflow: hidden;
+        border-radius: 50%;
+
+        &--me{
+            width: 100%;
+            height: auto;
+            margin-top: -10rem;
+        }
+    }
+
+    &__my-progtess-bar{
+        margin: 1rem;
+    }
+}
+
+
+
+//END ABOUT
+
+
+//BOOTSTRAP GRID
+
+.my-row {
+    text-align: center;
+}
+
+.last-row {
+    padding-bottom: 5rem;
+}
+
+//PROJECT COMPONENT
+
+.project {
+    background-image: linear-gradient(to top, #9FDDE1, #2B2D50);
+}
+
+.carousel-item {
+    height: 50rem;
+    width: 50rem;
+    overflow: hidden;
+    width: 100%;
+
+    & img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    }
+}
+
+
+
+//CONTACT COMPONENT
+.contact {
+    background-image: linear-gradient(to top, #2B2D50, #9FDDE1);
+
+    &__heading {
+        margin: 4rem;
+    }
+
+    &__label {
+        float: left;
+        font-size: 1.5rem;
+    }
+
+
+    &__button {
+        margin-top: 1rem;
+    }
+}
+
+.links {
+    list-style: none;
+    padding-right: 4rem;
+
+
+    &__icon {
+        text-decoration: none;
+        font-size: 5rem;
+        display: inline-block;
+        margin: 3rem;
+
+        &--1 {
+            color: whitesmoke;
+
+            &:hover {
+                color: whitesmoke;
+                text-decoration: none;
+            }
+        }
+
+        &--2 {
+            color: black;
+
+            &:hover {
+                color: black;
+                text-decoration: none;
+            }
+        }
+
+    }
+}
