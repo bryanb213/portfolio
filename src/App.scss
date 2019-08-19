@@ -62,7 +62,7 @@ canvas {
 .list {
     margin: 0;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color:lightgray;
     text-align: center;
     
     
@@ -91,11 +91,12 @@ canvas {
     text-align: center;
     color: #0E0F17;
     margin: 5rem;
-    border-bottom: solid black .5rem;
+    text-transform: uppercase;
+    //border-bottom: solid black .5rem;
 }
 
 .About {
-    background-color: #BCC2D1;
+    background-color: lightgray;
 
     &__icon{
     font-size: 6rem;

@@ -8,9 +8,19 @@ import me from '../img/me.jpg';
 
 
 const node = 60;
-const net = 55;
-const angular = 25;
+const net = 50;
+const angular = 55;
 const react = 45;
+
+const js = 55;
+const c = 40;
+const es = 40;
+const linq = 40;
+const html = 70;
+const css = 55;
+
+const mongo = 40;
+const sql = 40;
 
 
 class About extends Component {
@@ -94,7 +104,7 @@ class About extends Component {
 
                                 <div className="About__my-progress-bar">
                                     <p className="About__card-text">Angular</p>
-                                    <ProgressBar animated now={25} node={angular} label={`${angular}%`} />
+                                    <ProgressBar animated now={55} node={angular} label={`${angular}%`} />
                                 </div>
                             </Zoom>
                         </div>
@@ -108,7 +118,7 @@ class About extends Component {
                                 </div>
                                 <div className="About__my-progress-bar">
                                     <p className="About__card-text">.Net</p>
-                                    <ProgressBar animated now={55} net={net} label={`${net}%`} />
+                                    <ProgressBar animated now={50} net={net} label={`${net}%`} />
                                 </div>
                             </Zoom>
                         </div>
@@ -121,27 +131,27 @@ class About extends Component {
                             <Zoom left>
                                 <div className="About__my-progress-bar">
                                     <p className="About__card-text">Javascript</p>
-                                    <ProgressBar animated now={45} node={react} label={`${react}%`} />
+                                    <ProgressBar animated now={55} node={js} label={`${js}%`} />
                                 </div>
                                 <div className="About__my-progress-bar">
                                     <p className="About__card-text">ES6</p>
-                                    <ProgressBar animated now={25} node={angular} label={`${angular}%`} />
+                                    <ProgressBar animated now={40} node={es} label={`${es}%`} />
                                 </div>
                                 <div className="About__About__my-progress-bar">
                                     <p className="About__card-text">HTML5</p>
-                                    <ProgressBar animated now={25} node={angular} label={`${angular}%`} />
+                                    <ProgressBar animated now={70} node={html} label={`${html}%`} />
                                 </div>
                                 <div className="About__my-progress-bar">
                                     <p className="About__card-text">CSS</p>
-                                    <ProgressBar animated now={25} node={angular} label={`${angular}%`} />
+                                    <ProgressBar animated now={55} node={css} label={`${css}%`} />
                                 </div>
                                 <div className="About__my-progress-bar">
                                     <p className="About__card-text">C#</p>
-                                    <ProgressBar animated now={25} node={angular} label={`${angular}%`} />
+                                    <ProgressBar animated now={40} node={c} label={`${c}%`} />
                                 </div>
                                 <div className="About__my-progAbout__ress-bar">
                                     <p className="About__card-text">LINQ</p>
-                                    <ProgressBar animated now={25} node={angular} label={`${angular}%`} />
+                                    <ProgressBar animated now={40} node={linq} label={`${linq}%`} />
                                 </div>
                             </Zoom>
 
@@ -152,11 +162,11 @@ class About extends Component {
                             <Zoom right>
                                 <div className="About__my-progress-bar">
                                     <p className="About__card-text">MongoDB</p>
-                                    <ProgressBar animated now={60} node={node} label={`${node}%`} />
+                                    <ProgressBar animated now={40} node={mongo} label={`${mongo}%`} />
                                 </div>
                                 <div className="About__my-progress-bar">
                                     <p className="About__card-text">MySQL</p>
-                                    <ProgressBar animated now={55} net={net} label={`${net}%`} />
+                                    <ProgressBar animated now={40} net={sql} label={`${sql}%`} />
                                 </div>
                             </Zoom>
                         </div>
