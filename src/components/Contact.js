@@ -41,12 +41,12 @@ class Contact extends Component {
                             <ul className="links">
                             <Bounce left>
                                 <li className="links__icon">
-                                    <a className="links__icon--1" href="https://www.linkedin.com/in/bryanblancas/"><i class="fab fa-linkedin"></i></a>
+                                    <a className="links__icon--1" href="https://www.linkedin.com/in/bryanblancas/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
                                 </li>
                             </Bounce>
                             <Bounce right>
                                 <li className="links__icon">
-                                    <a className="links__icon--2" href="https://github.com/bryanb213"><i class="fab fa-github-square"></i></a>
+                                    <a className="links__icon--2" href="https://github.com/bryanb213" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
                                 </li>
                                 </Bounce>
                             </ul>

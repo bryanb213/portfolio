@@ -19,7 +19,7 @@ class Projects extends Component {
           <Flip top>
             <Carousel>
               <Carousel.Item>
-                <a href="http://www.nedelkovskialeks.com/spaceninjas/">
+                <a href="http://www.nedelkovskialeks.com/spaceninjas/" rel="noopener noreferrer" target="_blank">
                   <img
                     className="d-block w-100 h-100"
                     src={spaceninjas}
