@@ -52,7 +52,7 @@ class Contact extends Component {
                             </ul>
 
                             </div>
-                            <p>BryanBlancas&copy;2019</p>
+                            <p>BryanBlancas&copy;2020</p>
                         </div>
                     </div>
                 </div>

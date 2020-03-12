@@ -62,7 +62,7 @@ canvas {
 .list {
     margin: 0;
     width: 100%;
-    background-color:lightgray;
+    background-color:whitesmoke;
     text-align: center;
     
     
@@ -96,7 +96,7 @@ canvas {
 }
 
 .About {
-    background-color: lightgray;
+    background-color: whitesmoke;
 
     &__icon{
     font-size: 6rem;
@@ -177,7 +177,7 @@ canvas {
 
 //CONTACT COMPONENT
 .contact {
-    background-image: linear-gradient(to top, #2B2D50, #9FDDE1);
+    background-color: whitesmoke;
 
     &__heading {
         margin: 4rem;
@@ -206,10 +206,10 @@ canvas {
         margin: 3rem;
 
         &--1 {
-            color: whitesmoke;
+            color: blue($color: #000000);
 
             &:hover {
-                color: whitesmoke;
+                color: blue($color: #000000);
                 text-decoration: none;
             }
         }
@@ -223,5 +223,15 @@ canvas {
             }
         }
 
+    }
+
+
+}
+.my-list{
+    border: none;
+    
+    li{
+        background-color: whitesmoke;
+        font-size: 15px;
     }
 }
