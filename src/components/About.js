@@ -98,7 +98,7 @@ class About extends Component {
                         <Zoom left>
                         <ul className="list-group list-group-flush my-list">
                                 <li className="list-group-item"> Reactjs</li>
-                                <li className="list-group-item"> Angular 7</li>
+                                <li className="list-group-item"> Angular</li>
                             
                             </ul>
                         </Zoom>
@@ -109,7 +109,7 @@ class About extends Component {
                         <Zoom right>
                             <ul className="list-group list-group-flush my-list">
                                 <li className="list-group-item">Nodejs</li>
-                                <li className="list-group-item">.Net Core 2.2</li>
+                                <li className="list-group-item">.Net Core 2.2 & 3.1</li>
                                 <li className="list-group-item">LAMP</li>
                             </ul>
                         </Zoom>
