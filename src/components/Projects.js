@@ -23,7 +23,7 @@ class Projects extends Component {
                       <img src={Ecomm}
                         className="img-fluid z-depth-1-half" />
                     </a>
-                    <p style={{'font-size': '15px'}}>React, Firebase, SCSS E-commerce project</p>
+                    <p style={{'font-size': '15px'}}>React Firebase SCSS E-commerce project</p>
                   </figure>
                   </Fade>
                 </div>
