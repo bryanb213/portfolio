@@ -47,7 +47,7 @@ class Projects extends Component {
                       <img src={recipeSite}
                         className="img-fluid z-depth-1-half" />
                     </a>
-                    <p style={{'font-size': '15px', 'margin-top':'15px'}}>Angular Firebase appto add and edit recipes</p>
+                    <p style={{'font-size': '15px', 'margin-top':'15px'}}>Angular Firebase app to add and edit recipes</p>
                   </figure>
                   </Fade>
                 </div>
