@@ -138,6 +138,8 @@ class About extends Component {
                             <ul className="list-group list-group-flush my-list">
                                 <li className="list-group-item">MongoDB</li>
                                 <li className="list-group-item">SQL</li>
+                                <li className="list-group-item">Firebase</li>
+                                
                             </ul>
                         </Zoom>
                     </div>
