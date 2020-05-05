@@ -3,7 +3,8 @@ import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 
 import Ecomm from '../img/Ecomm.png';
-import devF from '../img/devF.png'
+import devF from '../img/devF.png';
+import recipeSite from '../img/recipeSite.png';
 
 
 class Projects extends Component {
@@ -14,7 +15,7 @@ class Projects extends Component {
           <div className="container-fluid">
             <h2 className="h1-responsive font-weight-bold mb-5" style={{'font-size': '50px'}}>Projects</h2>
             <div className="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                 <Fade>
                 <figure>
                     <a href="https://uptownclothingstore.netlify.com/"
@@ -26,7 +27,7 @@ class Projects extends Component {
                   </figure>
                   </Fade>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-4">
                 <Fade>
                 <figure>
                     <a href="https://polar-eyrie-08421.herokuapp.com/"
@@ -35,6 +36,18 @@ class Projects extends Component {
                         className="img-fluid z-depth-1-half" />
                     </a>
                     <p style={{'font-size': '15px', 'margin-top':'15px'}}>MERN CRUD project for developers to show off skills</p>
+                  </figure>
+                  </Fade>
+                </div>
+                <div className="col-md-4">
+                <Fade>
+                <figure>
+                    <a href="https://angularrecipe-b5d1c.web.app/recipes"
+                      data-size="1600x1067" target="_blank">
+                      <img src={recipeSite}
+                        className="img-fluid z-depth-1-half" />
+                    </a>
+                    <p style={{'font-size': '15px', 'margin-top':'15px'}}>Angular Firebase appto add and edit recipes</p>
                   </figure>
                   </Fade>
                 </div>
