@@ -73,7 +73,6 @@ class About extends Component {
                     </LightSpeed>
                 </div>
 
-
                 <div className="row my-row last-row">
 
                     <Slide bottom>
