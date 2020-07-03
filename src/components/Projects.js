@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Ecomm from '../img/Ecomm.png';
 import devF from '../img/devF.png';
@@ -17,9 +17,9 @@ class Projects extends Component {
                 <Fade>
                   <figure>
                     <a href="https://uptownclothingstore.netlify.com/"
-                      data-size="1600x1067" target="_blank">
+                      data-size="1600x1067" target="_blank" rel='noopener noreferrer'>
                       <img src={Ecomm}
-                        className="img-fluid z-depth-1-half" />
+                        className="img-fluid z-depth-1-half" alt="ecommerce img" />
                     </a>
                     <p style={{ 'font-size': '15px' }}>React Firebase SCSS E-commerce project</p>
                   </figure>
@@ -29,9 +29,9 @@ class Projects extends Component {
                 <Fade>
                   <figure>
                     <a href="https://polar-eyrie-08421.herokuapp.com/"
-                      data-size="1600x1067" target="_blank">
+                      data-size="1600x1067" target="_blank" rel="noopener noreferrer">
                       <img src={devF}
-                        className="img-fluid z-depth-1-half" />
+                        className="img-fluid z-depth-1-half" alt='dev site img'/>
                     </a>
                     <p style={{ 'font-size': '15px', 'margin-top': '15px' }}>MERN CRUD project for developers to show off skills</p>
                   </figure>
@@ -41,9 +41,10 @@ class Projects extends Component {
                 <Fade>
                   <figure>
                     <a href="https://angularrecipe-b5d1c.web.app/recipes"
-                      data-size="1600x1067" target="_blank">
+                      data-size="1600x1067" target="_blank" rel='noopener noreferrer'>
+                      
                       <img src={recipeSite}
-                        className="img-fluid z-depth-1-half" />
+                        className="img-fluid z-depth-1-half" alt='recipe img' />
                     </a>
                     <p style={{ 'font-size': '15px', 'margin-top': '15px' }}>Angular Firebase app to add and edit recipes you love</p>
                   </figure>
