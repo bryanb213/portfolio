@@ -3,24 +3,9 @@ import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import LightSpeed from 'react-reveal/LightSpeed';
 import Slide from 'react-reveal/Slide';
-import ProgressBar from 'react-bootstrap/ProgressBar';
+
 import me from '../img/me.jpg';
 
-
-const node = 60;
-const net = 50;
-const angular = 55;
-const react = 45;
-
-const js = 55;
-const c = 40;
-const es = 40;
-const linq = 40;
-const html = 70;
-const css = 55;
-
-const mongo = 40;
-const sql = 40;
 
 
 class About extends Component {
@@ -95,10 +80,10 @@ class About extends Component {
                     <div className="col my-col">
                         <h3 className="About__card-heading">Front-End</h3>
                         <Zoom left>
-                        <ul className="list-group list-group-flush my-list">
+                            <ul className="list-group list-group-flush my-list">
                                 <li className="list-group-item"> Reactjs</li>
                                 <li className="list-group-item"> Angular</li>
-                            
+
                             </ul>
                         </Zoom>
                     </div>
@@ -137,7 +122,7 @@ class About extends Component {
                                 <li className="list-group-item">MongoDB</li>
                                 <li className="list-group-item">SQL</li>
                                 <li className="list-group-item">Firebase</li>
-                                
+
                             </ul>
                         </Zoom>
                     </div>
