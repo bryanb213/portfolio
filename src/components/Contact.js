@@ -19,23 +19,9 @@ class Contact extends Component {
                         <div>
                         <Bounce top>
                             <h2 className="contact__heading">Got any questions or wish to get in touch?</h2>
+                        
+                                <a className="email" href="mailto:blancasbryan@gmail.com">Shoot me a message</a>
                             
-                            <form action="https://formspree.io/blancasbryan@gmail.com" method="POST">
-
-                                <div class="form-group">
-                                    <label className="contact__label" for="exampleInputPassword1">Name</label>
-                                    <input type="text" required minLength="2" name="name" class="form-control" id="exampleInputPassword1" placeholder="Enter name" />
-                                </div>
-                                <div class="form-group">
-                                    <label className="contact__label" for="exampleInputEmail1">Email</label>
-                                    <input type="email" required name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                                </div>
-                                <div >
-                                    <label className="contact__label" for="exampleFormControlTextarea1">Message</label>
-                                    <textarea placeholder="Enter message" minLength="2" required class="form-control" id="exampleFormControlTextarea1" rows="3" type="text" name="message"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary contact__button">Submit</button>
-                            </form>
                             </Bounce>
                             <div>
                             <ul className="links">
