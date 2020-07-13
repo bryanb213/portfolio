@@ -107,7 +107,8 @@ class About extends Component {
                             <ul className="list-group list-group-flush my-list">
                                 <li className="list-group-item">JS</li>
                                 <li className="list-group-item">C#</li>
-                                <li className="list-group-item">SCSS</li>
+                                <li className="list-group-item">SCSS, CSS</li>
+                                <li className="list-group-item">Typescript</li>
 
                             </ul>
 
